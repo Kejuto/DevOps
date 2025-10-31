@@ -16,7 +16,7 @@
     <artifactId>hello</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Hello</name>
-    <description>Hello</description>
+    <description>DevOps</description>
 
     <properties>
         <java.version>11</java.version>
