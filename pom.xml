@@ -11,22 +11,22 @@
         <relativePath/>
     </parent>
 
+     <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://localhost:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <groupId>com.zufarexplainedit</groupId>
     <artifactId>hello</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Hello</name>
     <description>Hello</description>
-
-    <developers>
-        <developer>
-            <name>Zufar Sunagatov</name>
-            <organization>Zufar Explaind IT</organization>
-            <roles>
-                <role>Owner</role>
-                <role>Developer</role>
-            </roles>
-        </developer>
-    </developers>
 
     <properties>
         <java.version>11</java.version>
